@@ -1,8 +1,8 @@
 
 ## Chapters
 
-#### **1. Introduction to Python**
-- Installing Python and setting up the environment (IDLE, VS Code, Jupyter Notebook).
+#### **[1. Introduction to Python](./01-Introduction-to-python/01%20-%20Introduction%20to%20python.md)**
+- Installing Python and setting up the environment
 - Writing and running your first Python script.
 
 #### **2. Basics of Python Syntax**
