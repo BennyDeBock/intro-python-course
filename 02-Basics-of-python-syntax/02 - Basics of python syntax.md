@@ -73,6 +73,62 @@ Tips:
 
 ## Basic Operations
 
+Python offers us a few basic operators to use. 
+
+### Arithmic operators
+These operators are used for mathematical calculations like addition, substraction, multiplication, etc. Most of these are the same as those used in everyday mathematics.
+
+| Operator | Description | Example | Result |
+|---|---|---|---|
+| + | Addition | 5 + 8 | 13 |
+| - | Substraction | 5 - 8 | -3 |
+| * | Multiplication | 9 * 7 | 63 |
+| / | Division | 5 / 2 | 2.5 |
+| // | Floor Division | 5 / 2 | 2 |
+| % | Modulo(Remainder) | 69 / 10 | 9 |
+| ** | Exponentation(Power) | 4 ** 3 | 64 |
+
+### Assignment operators
+These operators are used for assigning values to variables. The can also be used to perform arithmetic operations in combination with assignments.
+
+| Operator | Description | Example | Equivalent operation |
+|---|---|---|---|
+| = | Assign a value to a variable | x = 2 | N/A |
+| += | Add and assign | x += 5 | x = x + 5 |
+| -= | Subtract and assign | x -= 5 | x = x - 5 |
+| *= | Multiply and assign | x *= 5 | x = x * 5 |
+| /= | Divide and assign | x /= 5 | x = x / 5 |
+| //= | Floor divide and assign | x //= 5 | x = x // 5 |
+| %= | Modulo and assign | x %= 5 | x = x % 5 |
+| **= | Exponentiate and assign | x **= 5 | x = x ** 5 |
+
+### Comparison Operators
+These operators are used to compare two values. The result of this comparison returns a Boolean value (`True` or `False`)
+
+| Operator | Description | Example | Result |
+|---|---|---|---|
+| == | Equal to | 4 == 4 | True |
+| != | Not equal to | 4 != 5 | True |
+| > | Greater than | 3 > 5 | False |
+| < | Lesser than | 3 < 5 | True |
+| >= | Greater than or equal | 6 >= 6 | True |
+| <= | Lesser than or equal | 7 <= 4 | False |
+
+### Logical Operators
+These operators are used to combine and manipulate Boolean values. For the following examples, we'll assume `x = 10`
+
+| Operator | Description | Example | Evaluates to | Result |
+|---|---|---|---|---|
+| and | Returns True if all boolean values are True; Otherwise returns False | (x > 2) and (x < 20) | (True) and (True) | True |
+| or | Returns True if at least one boolean values is True; Otherwise returns False | (x > 11) or (x < 11) | (False) and (True) | True |
+| not | Returns True if all boolean values are True; Otherwise returns False | not(x == 10) | not(True) | False |
+
+> **Note:** It's important to note that the or operation stops from the moment it encounters a True value. Hence the order of your expressions may matter
+
+
+> **Note 2:** If you are checking to see if a number is between two numbers, you can use the following syntax. `0 < x < 100`
+
+
 
 ## Comments
 
