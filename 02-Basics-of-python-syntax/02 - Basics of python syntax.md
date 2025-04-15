@@ -108,7 +108,9 @@ and this will still count as one comment
 ```
 
 # Exercises
-
+[Exercise: Variables and datatypes](./exercises/variablesAndDataTypes.py)  
+[Exercise: Basic operations](./exercises/basicOperations.py)  
+[Exercise: Comments and Documentation](./exercises/commentsAndDocumentation.py)
 
 # Congratulations
 
