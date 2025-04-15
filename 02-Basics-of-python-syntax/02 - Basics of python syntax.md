@@ -163,6 +163,29 @@ and this will still count as one comment
 
 ```
 
+### Docstrings
+Sometimes, we want to write functions with documentation, as naming alone can't be enough. To do this, we write a docstring.
+
+```py
+def add_numbers(a, b):
+    """
+    Add two numbers and returns the result.
+
+    Parameters
+    ----------
+    a (int): The first number
+    b (int): The second number
+
+    Returns
+    -------
+    int: The addition of a and b.
+    """
+    return a + b
+
+# Prints 12 to the console
+print(add_numbers(4,8))
+```
+
 # Exercises
 [Exercise: Variables and datatypes](./exercises/variablesAndDataTypes.py)  
 [Exercise: Basic operations](./exercises/basicOperations.py)  
