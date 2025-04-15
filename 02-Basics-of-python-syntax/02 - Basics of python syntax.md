@@ -1,10 +1,10 @@
 # Concepts
 
-- Variables and Data Types (int, float, str, bool).
 - Basic Operations (addition, subtraction, multiplication, division).
 - Comments and Documentation.
 
-## Data types
+## Variables and Data types
+### Data Types
 Python gives us a few default data types we can use. An example of a string is the following line from the previous example:
 ```py
 "Hello world! My name is <insert your name>"
@@ -19,7 +19,7 @@ Below is a summary of a few basic data types. Collections will be touched upon i
 | float | 3.14 | Numeric | Decimal numbers. Defaults to 0.0 |
 | bool | True | Boolean | A True or False value |
 
-## Expressions
+### Expressions
 Expressions are lines of code that execute an operation. Usually these operations can return a result. These results can then be assigned to a variable for further processing.
 
 Some examples of an expression:
@@ -31,7 +31,7 @@ Some examples of an expression:
 print("Hello world")
 ```
 
-## Variables
+### Variables
 Now that we know some of the data types as well as what an expression is, we want some way to store information. We can do this by using variables.
 
 To use variables, these should get a name. This name is allowed to exist out of a combination of letters, numbers and underscores. These are also case sensitive.
@@ -70,6 +70,9 @@ Tips:
 - Use meaningful variable names
 - Use naming conventions: [A handy guide](https://pythonguides.com/python-naming-conventions/)
   - You can make your own conventions, just make sure to stick to it for clarity
+
+## Basic Operations
+
 
 ## Comments
 
