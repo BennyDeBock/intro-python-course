@@ -13,7 +13,7 @@ Exercise 2: Write a docstring
 Give the following function, add a docstring that explains what the function does, the parameters it takes and what it returns
 """
 
-def area_of_rectangle(length, width)
+def area_of_rectangle(length, width):
     return length * width
 
 
