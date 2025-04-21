@@ -5,7 +5,7 @@
 - Installing Python and setting up the environment
 - Writing and running your first Python script.
 
-#### **2. Basics of Python Syntax**
+#### **[2. Basics of Python Syntax](./02-Basics-of-python-syntax/02%20-%20Basics%20of%20python%20syntax.md)**
 - Variables and Data Types (int, float, str, bool).
 - Basic Operations (addition, subtraction, multiplication, division).
 - Comments and Documentation.
